@@ -1,7 +1,8 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import FloatingShape from "./components/FloatingShape";
 
-import SignUpPage from "./pages/SignUpPage";
+// import SignUpPage from "./pages/SignUpPage";
+
 
 import LoadingSpinner from "./components/LoadingSpinner";
 
@@ -13,6 +14,7 @@ import LoginPage from "./Pages/LoginPage";
 import ForgotPasswordPage from "./Pages/ForgotPasswordPage";
 import EmailVerificationPage from "./Pages/EmailVerificationPage";
 import ResetPasswordPage from "./Pages/ResetPasswordPage";
+import SignUpPage from "./Pages/SignUpPage";
 
 // protect routes that require authentication
 const ProtectedRoute = ({ children }) => {
